@@ -1,5 +1,6 @@
 import mongoose, { Schema } from "mongoose";
 
+// creating UseSchema to implement validation checks to ensure the data is formatted correctly and meets any specific requirements.
 const UserSchema = new mongoose.Schema(
   {
     firstname: {
